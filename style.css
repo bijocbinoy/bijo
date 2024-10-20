@@ -232,6 +232,8 @@ ul {
 
 
 .background-container {
+  width:40rem;
+  margin-left:11rem;
   padding: 2rem; /* Add padding for spacing */
   margin-bottom: 2rem;
 }
