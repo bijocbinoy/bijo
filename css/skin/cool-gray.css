@@ -11,7 +11,7 @@ a, a:hover, a:focus {
 	color: #fff;
 }
 .navbar-default, .navbar-default.navbar-fixed-top.navbar-shrink {
-  background-color: #363940;
+  background-color: #121315;
 }
 .navbar-default .navbar-nav > li > a {
 	color: #a9a9a9;
@@ -118,17 +118,20 @@ a, a:hover, a:focus {
 }
 
 
+#text-carousel-intro-section .cover{
+	background-color: rgba(11, 23, 29, 0.87);
 
+}
 /* === Rotate Box === */
 .rotate-box-1.square-icon .rotate-box-icon, .rotate-box-2.square-icon .rotate-box-icon {
-	background-color: #363940;
+	background-color: #121315;
 }
 
 
 
 /* === Progress Bar === */
 .progress {
-	border: 3px solid #363940;
+	border: 3px solid #121315;
 	background-color: transparent;
 }
 .progress-bar {
@@ -163,27 +166,27 @@ a, a:hover, a:focus {
 
 /* === Price === */
 .prices .panel-default .panel-heading {
-	box-shadow: inset 0px 4px 0px #363940;
+	box-shadow: inset 0px 4px 0px #121315;
 }
 .prices .price-box-featured .panel-heading {
-	background-color: #363940;
+	background-color: #121315;
 	color: #FFF;
 }
 .prices .price-box-featured .panel-footer {
-	box-shadow: inset 0px -4px 0px #363940;
+	box-shadow: inset 0px -4px 0px #121315;
 }
 .prices .price-box-featured .price-box-ribbon {
-	color: #363940;
+	color: #121315;
 }
 
 
 
 /* === Contact === */
 #contact-section {
-	background-color: #363940;
+	background-color: #121315;
 }
 #contact-section .contact .contact-form button {
-	background-color: #363940;
+	background-color: #121315;
 }
 #contact-section .contact .contact-form button:hover {
 	background-color: #676D75;
@@ -193,7 +196,7 @@ a, a:hover, a:focus {
 
 /* === Footer === */
 .footer-top {
-	background-color: #363940;
+	background-color: #121315;
 }
 .footer {
 	background-color: #2d3035;
@@ -212,7 +215,7 @@ a, a:hover, a:focus {
 
 /* === Buttons === */
 .btn-default, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active { 
-	background: #363940;
+	background: #121315;
 	color: #fff;
 }
 .btn-default:hover {
