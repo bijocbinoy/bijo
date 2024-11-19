@@ -17,7 +17,7 @@ body {
 	position: relative;
 	height: 100%;
 	font-size: 14px;
-	color: #363940;
+	color: #121315;
 }
 body .body {
 	height: 100%;
@@ -127,7 +127,7 @@ section {
 
 
 /* ===== Begin text colors ===== */
-.text-main { color: #363940; } /* Theme main color */
+.text-main { color: #121315;} /* Theme main color */
 .text-white { color: #FFF; }
 .text-off-white { color: #e7e7e7;}
 .text-dark { color: #000; }
@@ -270,6 +270,7 @@ section {
 
 /* ===== Begin intro ===== */
 /* Begin text carousel intro */
+
 #text-carousel-intro-section {
 	height: 100%;
 }
@@ -309,7 +310,7 @@ section {
 }
 a.rotate-box-1, a.rotate-box-2 {
 	text-decoration: none;
-	color: #363940;
+	color: #121315;
 }
 a.rotate-box-1:hover, a.rotate-box-2:hover {
 	color: #676D75;
@@ -522,7 +523,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
     display: inline-block;
 }
 .portfolio_menu ul li a{
-	color: #363940;
+	color: #121315;
 	background: transparent;
     display: inline-block;
     margin: 4px;
