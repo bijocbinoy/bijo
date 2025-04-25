@@ -1,0 +1,189 @@
+<!doctype html>
+
+<html lang="en-US">
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>bijocheriyanbinoy</title>
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Google Fonts  -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'> <!-- Body font -->
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> <!-- Navbar font -->
+
+		<!-- Libs and Plugins CSS -->
+		<link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="inc/animations/css/animate.min.css">
+		<link rel="stylesheet" href="inc/font-awesome/css/font-awesome.min.css"> <!-- Font Icons -->
+		<link rel="stylesheet" href="inc/owl-carousel/css/owl.carousel.css">
+		<link rel="stylesheet" href="inc/owl-carousel/css/owl.theme.css">
+
+		<!-- Theme CSS -->
+        <link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/mobile.css">
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="css/skin/cool-gray.css">
+	</head>
+    <body data-spy="scroll" data-target="#main-navbar">
+        <div class="page-loader"></div>  <!-- Display loading image while page loads -->
+    	<div class="body">
+        
+            <!--========== BEGIN HEADER ==========-->
+            <header id="header" class="header-main">
+
+                <!-- Begin Navbar -->
+                <nav id="main-navbar" class="navbar navbar-default navbar-fixed-top" role="navigation"> <!-- Classes: navbar-default, navbar-inverse, navbar-fixed-top, navbar-fixed-bottom, navbar-transparent. Note: If you use non-transparent navbar, set "height: 98px;" to #header -->
+
+                  <div class="container">
+
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand page-scroll" href="index.html">Bijo</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a class="page-scroll" href="index.html">Home</a></li>
+                            <li><a class="page-scroll" href="index.html#about-section">About</a></li>
+                            <li><a class="page-scroll" href="index.html#services-section">Projects</a></li>
+                            <li><a class="page-scroll" href="index.html#portfolio-section">Gallery</a></li>
+                            <li><a class="page-scroll" href="fine-tuning.html">Article</a></li> 
+                            <!-- <li><a class="page-scroll" href="#prices-section">Prices</a></li> --> 
+                            <li><a class="page-scroll" href="index.html#contact-section">Contact</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container -->
+                </nav>
+                <!-- End Navbar -->
+
+            </header>
+            <!-- ========= END HEADER =========-->
+            
+            <section id="about-section" class="page bg-style1" style="margin-top: 65px;">
+                <!-- Begin page header-->
+                <div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+                            <h2>How Fine-Tuning Works with Large Language Models (LLMs)</h2>
+                            <div class="devider"></div>
+                            <p class="subtitle">Teaching AI to Speak Your Language</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End page header-->
+
+                <!-- Begin rotate box-1 -->
+                <div class="rotate-box-1-wrapper">
+                    <div class="container" >
+                        <div class="row article-box "  >
+                            <!-- <div class="col-md-3 col-sm-6"> -->
+                                 
+                                    <!-- <span class="rotate-box-icon"><i class="fa fa-users"></i></span> -->
+                                    <div  class="wow fadeInUp" data-wow-delay="0"  >
+                                        
+                                       
+                                        <p>Have you ever wished ChatGPT had your grandmother's voice or responded to support enquiries like the top representative for your business? Making a general-purpose language model speak your language is the main goal of fine-tuning.</p>
+
+                                        <p>Our interactions with language-based AI have been completely transformed by Large Language Models (LLMs) such as GPT, BERT, and T5. These models can do a variety of tasks right out of the box because they have been trained on large datasets. However, fine-tuning becomes an effective method when you need a model to perform particularly well in a specific domain, such as legal papers, customer service, or medical advice.</p>
+                                      
+                                        <p>In this article, we'll go over how fine-tuning operates, its benefits, and how to begin improving your own LLM.</p>
+                                      
+                                        <hr><h4>What is Fine-Tuning?</h4>
+                                        <p>Consider that you are instructing a student who is already proficient in English. They are able to joke and discuss art and science. Now, however, you want them to become an expert on local slang or product manuals for your business. That's the essence of fine-tuning.</p>
+                                      
+                                        <p>The process of continuing to train a pretrained model using a smaller, task-specific dataset is known as fine-tuning. We utilise the broad language information the model already possesses and modify it to fit our particular use case, as opposed to creating a language model from scratch, which can be expensive and computationally demanding.</p>
+                                      <hr>
+                                        <h4>A Simple Analogy</h4>
+                                        <p>Suppose you have a base model, such as GPT-3, that can write about anything and can read the internet. You now want it to:</p>
+                                      
+                                        <ul>
+                                          <li>Respond to questions about your product from customer service,</li>
+                                          <li>Use the tone of your brand when writing blog entries,</li>
+                                          <li>Know your internal procedures or frequently asked questions.</li>
+                                        </ul>
+                                      <br>
+                                        <p>You accomplish this by providing it with samples from your actual work, documents, or discussions. It fine-tunes by learning from those and becomes specialised.</p>
+                                      <hr>
+                                        <h4>How Fine-Tuning Works</h4>
+                                        <p>A pretrained language model, which has already been trained on a vast amount of general information from books, websites, articles, and conversations, is the starting point for fine-tuning. This model already has a good grasp of language, syntax, and context. Despite its general expertise, it lacks domain-specific information and the capacity to adapt to a given use case or tone.</p>
+                                      
+                                        <p>In order to close that gap, we create a dataset consisting of real-world samples from our field, such as common customer service queries and the exact responses you want the AI to provide. The model learns from these examples how you would like it to react in practical situations.</p>
+                                      
+                                        <p>The process of fine-tuning starts as soon as the data is ready. With the use of your unique dataset, the model is further trained, progressively modifying its internal patterns to better suit your unique requirements. This entails making minor adjustments that affect the model's behaviour rather than completely retraining it from scratch. The model gradually begins to favour your priorities, terminology, and style in its answers.</p>
+                                      
+                                        <p>Once trained, the optimised model may be deployed into any system where you want more accurate and personalised AI responses—such as a chatbot on your website, an internal workflow tool, or a user-interaction product. The outcome is a model that can understand and communicate in a way that is specific to your world, in addition to speaking natural language fluently.</p>
+                                      
+                                        <p>Fine-tuning has allowed models to specialise in particular domains, increasing AI's adaptability and value across industries. It helps healthcare professionals better understand medical terminology, enabling safer and more precise responses. Customer support teams can ensure consistent and dependable interactions by using models that are in line with company policies and frequently asked questions. Fine-tuned models can serve as individualised tutors in the classroom, catered to particular teaching philosophies and curriculum requirements. In order to better understand contracts and policy-based enquiries, the legal industry is also investigating fine-tuning.</p>
+                                      
+                                        <p>Drawing from current research and developments in model adaptation, this article emphasises how fine-tuning gives general-purpose models domain-specific intelligence. As techniques improve in effectiveness and accessibility, fine-tuning creates new opportunities for academics, developers, and organisations to create more intelligent, mission-driven AI systems.</p>
+                                   <hr>
+                                    </div>
+                                
+                                </div>
+                                </div>
+                                </div>
+                                </section>
+                            <!-- </div> -->
+
+
+            
+            
+        	
+                
+                
+                                              
+                    <!-- Begin footer -->
+                    <footer class="text-off-white">
+            
+                
+                
+                        <div class="footer">
+                            <div class="container text-center wow fadeIn" data-wow-delay="0.4s">
+                                <p class="copyright">Copyright &copy; 2025 - <a href="https://www.linkedin.com/in/bijocbinoy/" class="theme-author">Bijo C Binoy</a> </p>
+                                <p>All rights reserved</p>
+                    </div>
+                        </div>
+        
+                    </footer>
+                    <!-- End footer -->
+        
+                    <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
+                                                      
+                </div><!-- body ends -->
+                
+        
+        
+        
+        
+        <!-- Plugins JS -->
+		<script src="inc/jquery/jquery-1.11.1.min.js"></script>
+		<script src="inc/bootstrap/js/bootstrap.min.js"></script>
+		<script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
+		<script src="inc/stellar/js/jquery.stellar.min.js"></script>
+		<script src="inc/animations/js/wow.min.js"></script>
+        <script src="inc/waypoints.min.js"></script>
+		<script src="inc/isotope.pkgd.min.js"></script>
+		<script src="inc/classie.js"></script>
+		<script src="inc/jquery.easing.min.js"></script>
+		<script src="inc/jquery.counterup.min.js"></script>
+		<script src="inc/smoothscroll.js"></script>
+
+		<!-- Theme JS -->
+		<script src="js/theme.js"></script>
+
+    </body> 
+        
+            
+</html>

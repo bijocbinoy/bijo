@@ -1,14 +1,4 @@
-/*---------------------------------------------------------------------------------
 
-Master Stylesheet
-
-	Template:	 Unika - Responsive One Page HTML5 Template
-	Author:		 imransdesign.com
-	URL:		 http://imransdesign.com/
-    Designed By: https://www.behance.net/poljakova
-	Version:	1.0	
-
----------------------------------------------------------------------------------*/
 
 html {
 	height: 100% !important;
@@ -1147,3 +1137,13 @@ p.subtitle {
 	transform: rotate(-45deg);
 }
 /* ===== End buttons ===== */
+
+
+.article-box {
+	text-align: justify;
+	max-width: 700px;
+	margin: auto;
+	font-size: 16px;
+	line-height: 1.8;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
